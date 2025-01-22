@@ -15,14 +15,14 @@
     - [strings.xml](./app/src/main/res/values/strings.xml)
 
 ## Main Screen
-![Main Screen](./screenshots/0.png)
+<img src="./screenshots/0.png" alt="Main Screen" width="400"/>
 
 ## User Guess
-![User Guess](./screenshots/1.png)
-![User Guess](./screenshots/2.png)
-![User Guess](./screenshots/3.png)
+<img src="./screenshots/1.png" alt="User Guess 1" width="400"/>  
+<img src="./screenshots/2.png" alt="User Guess 2" width="400"/>  
+<img src="./screenshots/3.png" alt="User Guess 3" width="400"/>
 
 ## Computer Guess
-![User Guess](./screenshots/4.png)
-![User Guess](./screenshots/5.png)
-![User Guess](./screenshots/6.png)
+<img src="./screenshots/4.png" alt="Computer Guess 1" width="400"/>  
+<img src="./screenshots/5.png" alt="Computer Guess 2" width="400"/>  
+<img src="./screenshots/6.png" alt="Computer Guess 3" width="400"/>
