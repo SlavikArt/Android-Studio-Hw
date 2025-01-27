@@ -1,0 +1,162 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCE5FF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="bottom"
+        android:background="#CCE5FF"
+        android:elevation="4dp"
+        android:layout_margin="16dp"
+        android:clipToPadding="false">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:focusable="false"
+            android:gravity="end"
+            android:inputType="none"
+            android:padding="12dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toTopOf="@+id/gridLayout" />
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:columnCount="4"
+            android:rowCount="5"
+            app:layout_constraintBottom_toTopOf="@id/buttonClear"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editText">
+
+            <!-- Row 1 -->
+            <Button
+                android:id="@+id/buttonBack"
+                style="@style/CalcButton"
+                android:text="@string/button_back"
+                android:backgroundTint="@android:color/holo_blue_dark" />
+
+            <Button
+                android:id="@+id/buttonSqrt"
+                style="@style/CalcButton"
+                android:text="@string/button_sqrt"
+                android:backgroundTint="@android:color/holo_blue_dark" />
+
+            <Button
+                android:id="@+id/buttonPow"
+                style="@style/CalcButton"
+                android:text="@string/button_pow"
+                android:backgroundTint="@android:color/holo_blue_dark" />
+            <Button
+                android:id="@+id/buttonDivide"
+                style="@style/CalcButton"
+                android:text="@string/button_divide"
+                android:backgroundTint="@android:color/holo_blue_dark" />
+
+            <!-- Row 2 -->
+            <Button
+                android:id="@+id/button7"
+                style="@style/CalcButton"
+                android:text="@string/button_7" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/CalcButton"
+                android:text="@string/button_8" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/CalcButton"
+                android:text="@string/button_9" />
+
+            <Button
+                android:id="@+id/buttonMultiply"
+                style="@style/CalcButton"
+                android:text="@string/button_multiply"
+                android:backgroundTint="@android:color/holo_blue_dark" />
+
+            <!-- Row 3 -->
+            <Button
+                android:id="@+id/button4"
+                style="@style/CalcButton"
+                android:text="@string/button_4" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/CalcButton"
+                android:text="@string/button_5" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/CalcButton"
+                android:text="@string/button_6" />
+
+            <Button
+                android:id="@+id/buttonSubtract"
+                style="@style/CalcButton"
+                android:text="@string/button_subtract"
+                android:backgroundTint="@android:color/holo_blue_dark" />
+
+            <!-- Row 4 -->
+            <Button
+                android:id="@+id/button1"
+                style="@style/CalcButton"
+                android:text="@string/button_1" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/CalcButton"
+                android:text="@string/button_2" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/CalcButton"
+                android:text="@string/button_3" />
+
+            <Button
+                android:id="@+id/buttonAdd"
+                style="@style/CalcButton"
+                android:text="@string/button_add"
+                android:backgroundTint="@android:color/holo_blue_dark" />
+
+            <!-- Row 5 -->
+            <Button
+                android:id="@+id/buttonClear"
+                style="@style/CalcButton"
+                android:text="@string/button_clear"
+                android:backgroundTint="@android:color/holo_blue_light" />
+
+            <Button
+                android:id="@+id/button0"
+                style="@style/CalcButton"
+                android:text="@string/button_0" />
+
+            <Button
+                android:id="@+id/buttonDot"
+                style="@style/CalcButton"
+                android:text="@string/button_dot"
+                android:backgroundTint="@android:color/holo_blue_light" />
+
+            <Button
+                android:id="@+id/buttonEqual"
+                style="@style/CalcButton"
+                android:text="@string/button_equal"
+                android:backgroundTint="@android:color/holo_blue_dark" />
+        </GridLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
