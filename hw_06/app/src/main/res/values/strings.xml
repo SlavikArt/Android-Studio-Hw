@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">hw_06</string>
+    <string name="edit_text">Редагувати текст</string>
+    <string name="choose_text">Обрати текст</string>
+    <string name="time_text">Отримати поточний час</string>
+    <string name="date_text">Змінити дату</string>
+    <string name="notify_text">Виклик сповіщення</string>
+</resources>

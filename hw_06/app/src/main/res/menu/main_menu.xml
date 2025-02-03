@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_edit"
+        android:title="@string/edit_text"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_choose"
+        android:title="@string/choose_text"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_time"
+        android:title="@string/time_text"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_date"
+        android:title="@string/date_text"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_notify"
+        android:title="@string/notify_text"
+        app:showAsAction="never"/>
+
+</menu>
