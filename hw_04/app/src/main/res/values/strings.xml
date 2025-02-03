@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">hw_04</string>
+    <string name="toolbar_title">Анкета для співбесіди</string>
+    <string name="fullname">ФИО:</string>
+    <string name="surname_name">Фамилия Имя Отчество</string>
+    <string name="age">Возраст:</string>
+    <string name="enter_age">Введите возраст</string>
+    <string name="salary_income">Уровень ЗП:</string>
+    <string name="default_income">1200$</string>
+    <string name="q1">Яке значення за замовчуванням має булевий тип у Java?</string>
+    <string name="q1_op1">true</string>
+    <string name="q1_op2">false</string>
+    <string name="q1_op3">null</string>
+    <string name="q2">Яке з наведених є дійсним оголошенням рядка в Java?</string>
+    <string name="q2_op1">String s = \'Hello\';</string>
+    <string name="q2_op2">String s = \"Hello\";</string>
+    <string name="q2_op3">char s = \"Hello\";</string>
+    <string name="q3">Який з цих типів даних не є примітивним типом у Java?</string>
+    <string name="q3_op1">int</string>
+    <string name="q3_op2">String</string>
+    <string name="q3_op3">char</string>
+    <string name="q4">Який з цих методів використовується для порівняння двох рядків у Java?</string>
+    <string name="q4_op1">compareTo()</string>
+    <string name="q4_op2">equals()</string>
+    <string name="q4_op3">match()</string>
+    <string name="send_button_text">Надіслати опитування</string>
+    <string name="q5">Який метод використовується для запуску нового потоку в Java?</string>
+    <string name="q5_op1">start()</string> <!-- Правильна відповідь -->
+    <string name="q5_op2">run()</string>
+    <string name="q5_op3">execute()</string>
+    <string name="additional_requirements">Додаткові вимоги</string>
+    <string name="work_experience">Досвід роботи від 2 років</string>
+    <string name="teamwork_skills">Навички командної розробки</string>
+    <string name="willingness_to_travel">Готовність до відряджень</string>
+</resources>
