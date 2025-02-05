@@ -7,3 +7,4 @@
 - [Homework 5 ---> Users List](./hw_05/)
 - [Homework 6 ---> Menu Dialogs Notifications](./hw_06/)
 - [Homework 7 ---> OLX Auto](./hw_07/)
+- [Homework 8 ---> Names Meaning](./hw_08/)

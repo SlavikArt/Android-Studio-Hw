@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">hw_08</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back">Назад</string>
+    <string name="meaning_of_names">Значення імен</string>
+    <string name="back_to_list">Назад до списку</string>
+</resources>
