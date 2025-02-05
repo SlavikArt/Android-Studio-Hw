@@ -14,6 +14,7 @@
 * [Value Files](./app/src/main/res/values/)
     - [colors.xml](./app/src/main/res/values/colors.xml)
     - [strings.xml](./app/src/main/res/values/strings.xml)
+    - [themes.xml](./app/src/main/res/values/themes.xml)
 
 ## OLX Auto
 <img src="./screenshots/0.png" alt="OLX Auto" width="400"/>
