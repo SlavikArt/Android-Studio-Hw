@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OLX Auto</string>
+    <string name="car_photo">Car Photo</string>
+    <string name="search">Search</string>
+    <string name="default_text">Toyota Corolla</string>
+    <string name="default_model">Model</string>
+    <string name="default_year">2020</string>
+    <string name="default_description">Good condition</string>
+    <string name="default_price">$20,000</string>
+</resources>

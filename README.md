@@ -6,3 +6,4 @@
 - [Homework 4 ---> Survey App](./hw_04/)
 - [Homework 5 ---> Users List](./hw_05/)
 - [Homework 6 ---> Menu Dialogs Notifications](./hw_06/)
+- [Homework 7 ---> OLX Auto](./hw_07/)
