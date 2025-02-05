@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">hw_09</string>
+    <string name="your_answer">Ваша відповідь</string>
+    <string name="check_answer">Перевірити</string>
+    <string name="start">Start Training</string>
+    <string name="settings">Settings</string>
+    <string name="math_problems">Math problems</string>
+    <string name="pictogram_puzzles">Pictogram puzzles</string>
+    <string name="save_settings">Save Settings</string>
+</resources>
