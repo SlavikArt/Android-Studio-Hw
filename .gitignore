@@ -2,6 +2,7 @@
 .gradle
 /local.properties
 .idea/
+generate_readme3.py
 hw_02/.idea
 hw_03/.idea
 hw_04/.idea
@@ -9,6 +10,8 @@ hw_05/.idea
 hw_06/.idea
 hw_07/.idea
 hw_08/.idea
+hw_09/.idea
+hw_10/.idea
 .DS_Store
 /build
 /captures

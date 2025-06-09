@@ -9,3 +9,4 @@
 - [Homework 7 ---> OLX Auto](./hw_07/)
 - [Homework 8 ---> Names Meaning](./hw_08/)
 - [Homework 9 ---> Brain Training](./hw_09/)
+- [Homework 10 ---> Shopping List](./hw_10/)
